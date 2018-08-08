@@ -1,0 +1,121 @@
+[
+  {
+    "description": "Short Description:\nUpdate the Landing Page and naming in the MarketPricer system to refer to MarketPricer\n\nStory:\nAs a User\nI want to see the correct MarketPricer branding in the MarketPricer system\nSo that I know which system I am interacting with.",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "LM-4-Update the Landing Page and naming in the MarketPricer system to refer to MarketPricer",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LM-4"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ],
+    "uri": "C:\\Users\\yugandhar-gorrepati\\Market Pricer\\automation\\features\\LM4-Update_Basic_Branding_to_MP.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "1. Update the Landing Page and naming in the MarketPricer system to refer to MarketPricer",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LM-4"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 15,
+            "name": "@LM-4:1"
+          }
+        ],
+        "id": "lm-4-update-the-landing-page-and-naming-in-the-marketpricer-system-to-refer-to-marketpricer;1.-update-the-landing-page-and-naming-in-the-marketpricer-system-to-refer-to-marketpricer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is on MP Landing page",
+            "result": {
+              "status": "passed",
+              "duration": 10
+            },
+            "line": 17,
+            "match": {
+              "location": "Pricer\\automation\\features\\step_definitions\\LM4-Update_Basic_Branding_to_MP.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user views Change name on Landing Page",
+            "result": {
+              "status": "passed",
+              "duration": 4040
+            },
+            "line": 18,
+            "match": {
+              "location": "Pricer\\automation\\features\\step_definitions\\LM4-Update_Basic_Branding_to_MP.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is logged into the MP system",
+            "result": {
+              "status": "passed",
+              "duration": 16572
+            },
+            "line": 19,
+            "match": {
+              "location": "Pricer\\automation\\features\\step_definitions\\LM4-Update_Basic_Branding_to_MP.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user views Change the name in the System from CP to MP",
+            "result": {
+              "status": "passed",
+              "duration": 2337
+            },
+            "line": 20,
+            "match": {
+              "location": "Pricer\\automation\\features\\step_definitions\\LM4-Update_Basic_Branding_to_MP.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user will be logged out of the MP system",
+            "result": {
+              "status": "passed",
+              "duration": 7944
+            },
+            "line": 21,
+            "match": {
+              "location": "Pricer\\automation\\features\\step_definitions\\LM4-Update_Basic_Branding_to_MP.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "Pricer\\automation\\support\\html_reporter.js:16"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "lm-4-update-the-landing-page-and-naming-in-the-marketpricer-system-to-refer-to-marketpricer"
+  }
+]
